@@ -1,0 +1,1128 @@
+fileFormatVersion: 2
+guid: 605fb891014b1b84bab4585a022b1695
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 52379410843518818
+    second: playerEmpurra_0
+  - first:
+      213: 7637937736048564576
+    second: playerEmpurra_1
+  - first:
+      213: 70488362336758533
+    second: playerEmpurra_2
+  - first:
+      213: 7278072030785244032
+    second: playerEmpurra_3
+  - first:
+      213: 3178644108559485917
+    second: playerEmpurra_4
+  - first:
+      213: -1078941853199109891
+    second: playerEmpurra_5
+  - first:
+      213: 5337672875815561045
+    second: playerEmpurra_6
+  - first:
+      213: 3989768774243798498
+    second: playerEmpurra_7
+  - first:
+      213: 4558336441163862424
+    second: playerEmpurra_8
+  - first:
+      213: 7780685686229503972
+    second: playerEmpurra_9
+  - first:
+      213: -6188552109812314761
+    second: playerEmpurra_10
+  - first:
+      213: -9094289084523430178
+    second: playerEmpurra_11
+  - first:
+      213: 8413683427037654550
+    second: playerEmpurra_12
+  - first:
+      213: 960995429904076273
+    second: playerEmpurra_13
+  - first:
+      213: -5357317486015718959
+    second: playerEmpurra_14
+  - first:
+      213: -9031217307559430283
+    second: playerEmpurra_15
+  - first:
+      213: -7464822019770462733
+    second: playerEmpurra_16
+  - first:
+      213: 3151967250368698546
+    second: playerEmpurra_17
+  - first:
+      213: 6383843948999059394
+    second: playerEmpurra_18
+  - first:
+      213: 9111686023442909745
+    second: playerEmpurra_19
+  - first:
+      213: 8537885306644275528
+    second: playerEmpurra_20
+  - first:
+      213: 735598377961304390
+    second: playerEmpurra_21
+  - first:
+      213: 767739877278288261
+    second: playerEmpurra_22
+  - first:
+      213: -6086568068765036644
+    second: playerEmpurra_23
+  - first:
+      213: -3031343546992408725
+    second: playerEmpurra_24
+  - first:
+      213: -1557587233644784623
+    second: playerEmpurra_25
+  - first:
+      213: 2895305830384317214
+    second: playerEmpurra_26
+  - first:
+      213: 8550721610575125636
+    second: playerEmpurra_27
+  - first:
+      213: 3774802195777216029
+    second: playerEmpurra_28
+  - first:
+      213: -308957952829352153
+    second: playerEmpurra_29
+  - first:
+      213: -1948278317803473026
+    second: playerEmpurra_30
+  - first:
+      213: 7700434516695480157
+    second: playerEmpurra_31
+  - first:
+      213: -2441163559479431508
+    second: playerEmpurra_32
+  - first:
+      213: -3734290616646695490
+    second: playerEmpurra_33
+  - first:
+      213: -5733206267479815589
+    second: playerEmpurra_34
+  - first:
+      213: 8874536590328358901
+    second: playerEmpurra_35
+  - first:
+      213: -7595354488808913226
+    second: playerEmpurra_36
+  - first:
+      213: 2633328079698802048
+    second: playerEmpurra_37
+  - first:
+      213: 4439809722114542187
+    second: playerEmpurra_38
+  - first:
+      213: 6100205810143816682
+    second: playerEmpurra_39
+  - first:
+      213: 2539526047570871183
+    second: playerEmpurra_40
+  - first:
+      213: 3129955665609310177
+    second: playerEmpurra_41
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 160
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: playerEmpurra_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1775
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2674fd0fbc61ab000800000000000000
+      internalID: 52379410843518818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_1
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1775
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069d9b547e76ff960800000000000000
+      internalID: 7637937736048564576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_2
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1775
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ba1e5cacc6af000800000000000000
+      internalID: 70488362336758533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_3
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 1775
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b09ac73f7e00560800000000000000
+      internalID: 7278072030785244032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_4
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1775
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb831eb9ffcc1c20800000000000000
+      internalID: 3178644108559485917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_5
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 1775
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0f3cad914d601f0800000000000000
+      internalID: -1078941853199109891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_6
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 1775
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557693a4339331a40800000000000000
+      internalID: 5337672875815561045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1420
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed4fbcbf818e5730800000000000000
+      internalID: 3989768774243798498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_8
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1420
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8915a4697d6724f30800000000000000
+      internalID: 4558336441163862424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_9
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1420
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef0da4686c8afb60800000000000000
+      internalID: 7780685686229503972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_10
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 1420
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d84acf4a8dd1aa0800000000000000
+      internalID: -6188552109812314761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_11
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1420
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edeb440e2489ac180800000000000000
+      internalID: -9094289084523430178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_12
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 1420
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61eab21df7863c470800000000000000
+      internalID: 8413683427037654550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_13
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 1420
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fdc43e7044265d00800000000000000
+      internalID: 960995429904076273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1065
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d95b09712cf6a5b0800000000000000
+      internalID: -5357317486015718959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_15
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1065
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5777f8d45bbaaa280800000000000000
+      internalID: -9031217307559430283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_16
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1065
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd41106cef976890800000000000000
+      internalID: -7464822019770462733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_17
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 1065
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b814eda3890ebb20800000000000000
+      internalID: 3151967250368698546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_18
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1065
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7ad91af38f79850800000000000000
+      internalID: 6383843948999059394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_19
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 1065
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ac43c9926337e70800000000000000
+      internalID: 9111686023442909745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_20
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 1065
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8412f836379ac7670800000000000000
+      internalID: 8537885306644275528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 710
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641bcbfc3de553a00800000000000000
+      internalID: 735598377961304390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_22
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 710
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5890319c95f87aa00800000000000000
+      internalID: 767739877278288261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_23
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 710
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f4608e69a288ba0800000000000000
+      internalID: -6086568068765036644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_24
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 710
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b674851da118ee5d0800000000000000
+      internalID: -3031343546992408725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_25
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 710
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1145be7d9a6526ae0800000000000000
+      internalID: -1557587233644784623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_26
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 710
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13bc2010513e2820800000000000000
+      internalID: 2895305830384317214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_27
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 710
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c169b40044aa670800000000000000
+      internalID: 8550721610575125636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 355
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e5aa8e89ac26430800000000000000
+      internalID: 3774802195777216029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_29
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 355
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727131bf06c56bbf0800000000000000
+      internalID: -308957952829352153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_30
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 355
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e777abf313356f4e0800000000000000
+      internalID: -1948278317803473026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_31
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 355
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d577acfe4607dda60800000000000000
+      internalID: 7700434516695480157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_32
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 355
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caea99e2dae3f1ed0800000000000000
+      internalID: -2441163559479431508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_33
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 355
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb503b228722d2cc0800000000000000
+      internalID: -3734290616646695490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_34
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 355
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a82da864f8f60b0800000000000000
+      internalID: -5733206267479815589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f76ab47200b82b70800000000000000
+      internalID: 8874536590328358901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_36
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 0
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b640679551e79690800000000000000
+      internalID: -7595354488808913226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_37
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 0
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085328fbfe57b8420800000000000000
+      internalID: 2633328079698802048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_38
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 0
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a86fc4b6f5d9d30800000000000000
+      internalID: 4439809722114542187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_39
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 0
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb65623dd848a450800000000000000
+      internalID: 6100205810143816682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_40
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 0
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83405b3c753e3320800000000000000
+      internalID: 2539526047570871183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerEmpurra_41
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 0
+        width: 387
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef3d5b3816df6b20800000000000000
+      internalID: 3129955665609310177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

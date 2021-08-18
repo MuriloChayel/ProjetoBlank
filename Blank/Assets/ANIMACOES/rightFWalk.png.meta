@@ -1,0 +1,696 @@
+fileFormatVersion: 2
+guid: 478f0aad96ce61c4199ea9606b42a636
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2215064117739754666
+    second: rightFWalk_0
+  - first:
+      213: 7324812078324906446
+    second: rightFWalk_1
+  - first:
+      213: -8787773902674847109
+    second: rightFWalk_2
+  - first:
+      213: 6517717119722180096
+    second: rightFWalk_3
+  - first:
+      213: 3950597303449755251
+    second: rightFWalk_4
+  - first:
+      213: 6634139502606622776
+    second: rightFWalk_5
+  - first:
+      213: -1867158965144887950
+    second: rightFWalk_6
+  - first:
+      213: -6554663077742860976
+    second: rightFWalk_7
+  - first:
+      213: 7541143955468703089
+    second: rightFWalk_8
+  - first:
+      213: 8450757016989157784
+    second: rightFWalk_9
+  - first:
+      213: -5873637361321624419
+    second: rightFWalk_10
+  - first:
+      213: 9170017056698706471
+    second: rightFWalk_11
+  - first:
+      213: 8860425931222962615
+    second: rightFWalk_12
+  - first:
+      213: 432463606591140558
+    second: rightFWalk_13
+  - first:
+      213: 1231818638657352644
+    second: rightFWalk_14
+  - first:
+      213: -4128779879366070324
+    second: rightFWalk_15
+  - first:
+      213: 4308130749298879343
+    second: rightFWalk_16
+  - first:
+      213: -7858152877129740212
+    second: rightFWalk_17
+  - first:
+      213: -5336609888037943220
+    second: rightFWalk_18
+  - first:
+      213: -691586745029130764
+    second: rightFWalk_19
+  - first:
+      213: -527132425588031249
+    second: rightFWalk_20
+  - first:
+      213: -6316132443978663512
+    second: rightFWalk_21
+  - first:
+      213: -4436689859728148597
+    second: rightFWalk_22
+  - first:
+      213: -30320479685970422
+    second: rightFWalk_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 400
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rightFWalk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6342
+        width: 1677
+        height: 2114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b686bbbe28241e0800000000000000
+      internalID: -2215064117739754666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rightFWalk_1
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 6342
+        width: 1677
+        height: 2114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9fb07d6c5f6a560800000000000000
+      internalID: 7324812078324906446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rightFWalk_2
+      rect:
+        serializedVersion: 2
+        x: 3354
+        y: 6342
+        width: 1677
+        height: 2114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a1e94f13e8b0680800000000000000
+      internalID: -8787773902674847109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rightFWalk_3
+      rect:
+        serializedVersion: 2
+        x: 5031
+        y: 6342
+        width: 1677
+        height: 2114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ec5832035937a50800000000000000
+      internalID: 6517717119722180096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rightFWalk_4
+      rect:
+        serializedVersion: 2
+        x: 6708
+        y: 6342
+        width: 1677
+        height: 2114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e1dbaf05753d630800000000000000
+      internalID: 3950597303449755251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rightFWalk_5
+      rect:
+        serializedVersion: 2
+        x: 8385
+        y: 6342
+        width: 1677
+        height: 2114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830214b7ab2311c50800000000000000
+      internalID: 6634139502606622776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rightFWalk_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4228
+        width: 1677
+        height: 2114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d5a5750d48616e0800000000000000
+      internalID: -1867158965144887950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rightFWalk_7
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 4228
+        width: 1677
+        height: 2114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055a4cca8a82905a0800000000000000
+      internalID: -6554663077742860976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rightFWalk_8
+      rect:
+        serializedVersion: 2
+        x: 3354
+        y: 4228
+        width: 1677
+        height: 2114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175dbc9097687a860800000000000000
+      internalID: 7541143955468703089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rightFWalk_9
+      rect:
+        serializedVersion: 2
+        x: 5031
+        y: 4228
+        width: 1677
+        height: 2114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89947c0abbe174570800000000000000
+      internalID: 8450757016989157784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rightFWalk_10
+      rect:
+        serializedVersion: 2
+        x: 6708
+        y: 4228
+        width: 1677
+        height: 2114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c36f290f5ac7ea0800000000000000
+      internalID: -5873637361321624419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rightFWalk_11
+      rect:
+        serializedVersion: 2
+        x: 8385
+        y: 4228
+        width: 1677
+        height: 2114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72aacc0ade1724f70800000000000000
+      internalID: 9170017056698706471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rightFWalk_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2114
+        width: 1677
+        height: 2114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1543d907e86fa70800000000000000
+      internalID: 8860425931222962615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rightFWalk_13
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 2114
+        width: 1677
+        height: 2114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec23621eb5b600600800000000000000
+      internalID: 432463606591140558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rightFWalk_14
+      rect:
+        serializedVersion: 2
+        x: 3354
+        y: 2114
+        width: 1677
+        height: 2114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c370e0868c481110800000000000000
+      internalID: 1231818638657352644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rightFWalk_15
+      rect:
+        serializedVersion: 2
+        x: 5031
+        y: 2114
+        width: 1677
+        height: 2114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccfea9e2390a3b6c0800000000000000
+      internalID: -4128779879366070324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rightFWalk_16
+      rect:
+        serializedVersion: 2
+        x: 6708
+        y: 2114
+        width: 1677
+        height: 2114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ba5ed471e89cb30800000000000000
+      internalID: 4308130749298879343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rightFWalk_17
+      rect:
+        serializedVersion: 2
+        x: 8385
+        y: 2114
+        width: 1677
+        height: 2114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40d7ffa79b32f290800000000000000
+      internalID: -7858152877129740212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rightFWalk_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1677
+        height: 2114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4849a6d49d80f5b0800000000000000
+      internalID: -5336609888037943220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rightFWalk_19
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 0
+        width: 1677
+        height: 2114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f58b23058df666f0800000000000000
+      internalID: -691586745029130764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rightFWalk_20
+      rect:
+        serializedVersion: 2
+        x: 3354
+        y: 0
+        width: 1677
+        height: 2114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe04c3f0adf3fa8f0800000000000000
+      internalID: -527132425588031249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rightFWalk_21
+      rect:
+        serializedVersion: 2
+        x: 5031
+        y: 0
+        width: 1677
+        height: 2114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9f45aa1079858a0800000000000000
+      internalID: -6316132443978663512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rightFWalk_22
+      rect:
+        serializedVersion: 2
+        x: 6708
+        y: 0
+        width: 1677
+        height: 2114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8773544416bd62c0800000000000000
+      internalID: -4436689859728148597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rightFWalk_23
+      rect:
+        serializedVersion: 2
+        x: 8385
+        y: 0
+        width: 1677
+        height: 2114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06f5e23fa7449ff0800000000000000
+      internalID: -30320479685970422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
