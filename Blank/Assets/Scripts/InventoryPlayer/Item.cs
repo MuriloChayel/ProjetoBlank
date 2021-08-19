@@ -47,8 +47,7 @@ public class Item : MonoBehaviour
     {
         ctrl = true;
         source.clip = clip;
-        source.Play();
-        print("playing");
+        source.Play();  
         yield return new WaitForSeconds(cooldownSoundFx);
         ctrl = false;
     }

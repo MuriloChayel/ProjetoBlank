@@ -37,6 +37,7 @@ public class CameraBehaviour : ScriptableObject
     public IEnumerator FadeOut(Image fade, Vector2 camPosition, GameObject light)
     {
         SetPositionToShowRooms(camPosition);
+        
         PlayerLevelProgress.Instance.TurnOffOtherLights(light);
 
         yield return new WaitForSeconds(timeTransition);

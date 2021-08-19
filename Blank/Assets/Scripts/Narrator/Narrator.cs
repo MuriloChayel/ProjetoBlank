@@ -7,13 +7,15 @@ public class Narrator : MonoBehaviour
     public static Narrator Instance { get; private set; }
 
     public RandomClipsNarrador randomClipsNarrador;
-
+    public NarratorObjectsEvents objectsEvents;
+    public SequencialClips Intro;
     public AudioSource voicePlayer;
 
     public PlayerBehaviour player;
-
+    public float t;
     bool ctrl = false;
     public float idleTime;
+    public bool skipIntro;
     public bool finishEvent01;
 
     private void Awake()
@@ -23,13 +25,14 @@ public class Narrator : MonoBehaviour
     }
     private void Start()
     {
-        randomClipsNarrador.sequentialDialogues[0].SetIntroToTrue();
-        randomClipsNarrador.sequentialDialogues[0].PlayInOrder(voicePlayer);
+        Intro.Setup(voicePlayer);
+        if(!skipIntro)
+            Intro.PlayIntro();
         
     }
     private void Update()
     {
-        if (randomClipsNarrador.sequentialDialogues[0].introFinished && player.tooMchIdle && !ctrl)
+        if (Intro.introFinished && player.tooMchIdle && !ctrl)
         {
             StartCoroutine(Wait());
         }
@@ -37,13 +40,18 @@ public class Narrator : MonoBehaviour
     IEnumerator Wait()
     {
         ctrl = true;
-        randomClipsNarrador.WaitPlayRandom(voicePlayer, 0);
+        randomClipsNarrador.PlayRandomClip(voicePlayer, 0);
         yield return new WaitForSeconds(idleTime);
         ctrl = false;
     }
     public void TryOpenDoor()
     {
-        if(!voicePlayer.isPlaying)
-            randomClipsNarrador.sequentialDialogues[0].PlayInOrder(voicePlayer);
+        print("Try open door");
+        if (!voicePlayer.isPlaying)
+        {
+            objectsEvents.Setup(voicePlayer);
+            randomClipsNarrador.PlayRandomClip(voicePlayer,2); //2 - playerReturns
+            StartCoroutine(objectsEvents.EventTriggerAudio(t));
+        }
     }
 }

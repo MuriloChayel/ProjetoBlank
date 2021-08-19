@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c24acaf24ed66ff46ae8f5b06fc8da1f, type: 3}
   m_Name: Level_02
   m_EditorClassIdentifier: 
-  stepCount: 0
-  steps: 
+  stepCount: 4
+  currentStep: 0
+  steps: 01000000
   stepComplete: 0

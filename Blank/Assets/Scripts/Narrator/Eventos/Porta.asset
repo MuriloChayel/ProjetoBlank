@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07af4b60cf31766429d0e6044bc35119, type: 3}
+  m_Name: Porta
+  m_EditorClassIdentifier: 
+  clipsInOrder:
+  - {fileID: 8300000, guid: 9237dd10bd3a68849b003fe1d57d4171, type: 3}
+  - {fileID: 8300000, guid: 28f6934988e33e84e9f323f64397e76a, type: 3}
+  - {fileID: 8300000, guid: 87d9c59a2dc63804c913d557604e33a9, type: 3}
+  - {fileID: 8300000, guid: 46617ea3b7b38bb47a924c86bc9fe16b, type: 3}
+  - {fileID: 8300000, guid: 31fb174442a78a840837fb0d1143ff22, type: 3}
+  - {fileID: 8300000, guid: 2ee6164df33620643b6419266ec4d1f3, type: 3}
+  - {fileID: 8300000, guid: a1821855e3276474aa27de669440bd4a, type: 3}
+  currentClipIndex: 3

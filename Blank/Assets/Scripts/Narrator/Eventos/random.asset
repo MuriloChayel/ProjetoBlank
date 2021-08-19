@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07258c434ec3f514aa89c0ff302d1e21, type: 3}
   m_Name: random
   m_EditorClassIdentifier: 
-  sequentialDialogues:
-  - {fileID: 11400000, guid: f3218090948c93244a18eff145775ff8, type: 2}
   idles:
   - {fileID: 8300000, guid: 68871b014e36deb4bb090221061b9dfe, type: 3}
   - {fileID: 8300000, guid: 909f27e2b1125ec42a57a79410bd56fc, type: 3}
@@ -21,4 +19,6 @@ MonoBehaviour:
   loops: []
   instrucoes: []
   nearby: []
+  playerReturns:
+  - {fileID: 8300000, guid: 2ebc8beee4e11f9428a62acba8dddc57, type: 3}
   tutorial: []

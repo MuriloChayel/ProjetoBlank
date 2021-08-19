@@ -13,6 +13,7 @@ public class OpenDoors : MonoBehaviour
 
     [Header("PROPERTIES")]
     public GameObject door;
+    public GameObject falseWalls;
     public BoxCollider2D doorCollider;
     
     [Header("CHECKs")]
@@ -33,8 +34,10 @@ public class OpenDoors : MonoBehaviour
     {
         source = GetComponent<AudioSource>();
         Instance = this;
-        if(!frontDoor)
+        if (!frontDoor)
+        {
             door.SetActive(false);
+        }
     }
     //ABRIR A PORTA + USAR CHAVE
     private void Update()
@@ -44,7 +47,7 @@ public class OpenDoors : MonoBehaviour
             inventorySetup.UseKey();
             OpenDoor();
         }
-        else if(inDoorArea && Input.GetKeyDown(openDoorKey))
+        else if(!haveAKey && inDoorArea && Input.GetKeyDown(openDoorKey))
         {
             source.clip = tryingToOpen;
             if(!source.isPlaying)
@@ -70,6 +73,9 @@ public class OpenDoors : MonoBehaviour
     {
         source.clip = openSound;
         source.Play();
+
+        if(falseWalls!= null)
+            falseWalls.SetActive(false);
 
         if (!frontDoor)
         {

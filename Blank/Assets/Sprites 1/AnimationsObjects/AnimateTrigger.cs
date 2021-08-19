@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class AnimateTrigger : MonoBehaviour
 {
-
+    [Header("Properties")]
+    private ResolvePuzzles resolvePuzzles;
+    
+    [Header("Statistics")]
     public bool interact = false;
     public bool inInteractArea = false;
     public string stateName;
     public bool lastStepComplete;
-
-    public float StartAfteXSeconds;
     public float duration;
 
     
@@ -19,19 +20,16 @@ public class AnimateTrigger : MonoBehaviour
     private void Awake()
     {
         an = GetComponent<Animator>();
-        GetComponent<BoxCollider2D>().enabled = false;
     }
     private void Start()
     {
-        StartCoroutine(WaitToInit());
+        resolvePuzzles = transform.parent.GetComponent<ResolvePuzzles>();
     }
-    IEnumerator WaitToInit()
-    {
-        yield return new WaitForSeconds(StartAfteXSeconds);
-        GetComponent<BoxCollider2D>().enabled = true;
-    }
+
     private void Update()
     {
+        lastStepComplete = resolvePuzzles.currentLevel.GetLastStepsState(resolvePuzzles.currentLevel.GetCurrentStep());
+
         if (inInteractArea && interact  && lastStepComplete)
         {
             Interact();

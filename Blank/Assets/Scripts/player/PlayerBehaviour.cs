@@ -32,7 +32,7 @@ public class PlayerBehaviour : MonoBehaviour
 
     [Header("Interact Properties")]
     public AnimateTrigger animateTrigger;
-    private ResolvePuzzles currentPuzzle;
+    private ResolvePuzzles currentRoom;
     public AudioSource audioSource;
     public bool canInteract = false;
 
@@ -61,10 +61,9 @@ public class PlayerBehaviour : MonoBehaviour
             controller = true;
             StartCoroutine(WalkCoroutine());
         }
-        if (Input.GetKeyDown(KeyCode.J) && currentPuzzle.level.GetLastStepsState(currentPuzzle.currentStep))
-            if(animateTrigger != null)
+        if (animateTrigger != null)
+            if (Input.GetKeyDown(KeyCode.J) && animateTrigger.lastStepComplete)
                 Interact();
-
     }
     //SETANDO INTERAGIR COM OBJETOS
     private void SetCurrentAnimatorInteraction(GameObject target)
@@ -74,7 +73,7 @@ public class PlayerBehaviour : MonoBehaviour
     private void SetCurrentArea(GameObject area)
     {
         if(area != null)
-            currentPuzzle = area.GetComponent<ResolvePuzzles>();
+            currentRoom = area.GetComponent<ResolvePuzzles>();
     }
     private void Interact()
     {

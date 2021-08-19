@@ -4,81 +4,77 @@ using UnityEngine;
 
 public class boxArea : MonoBehaviour
 {
-    //public Levels levels
-    [Header("Properties")]
-    public ResolvePuzzles resolvePuzzles;
-    public Levels currentLevel;
-
-    [Header("AereaProperties")]
-    public bool haveAkey = false;
-    public bool waitBeforeStart = false;
-    public float WaitTime;
-    public float waitTimeToShowItem;
-
-    [Header("Audio Properties")]
-    public bool haveSequentialAudios = false;
-    public bool audioCooldownCtrl = false;
-    public float cooldownBtwSeqAudio;
-
     public enum boxAreas
     {
         A = 0,
         B = 1,
         C = 2,
         D = 3,
-        E = 4, 
+        E = 4,
         F = 5,
         G = 6,
         H = 7,
         I = 8,
         J = 9,
     };
-
     public boxAreas areaOrder;
+
+    //public Levels levels
+    [Header("Properties")]
+    private FuncBoxArea boxAreaFunctions;
+    private Levels currentLevel;
+
+    [Header("Obj and positions")]
+    public Transform spawnPos;
+    public GameObject itemObj;
+
+    [Header("Options")]
+    public bool spawAItem;
+    public bool needAKeyToSpawn;
+    public bool inDoorArea;
+    public KeyCode keyToSpawn;
+    public bool spawnedItem;
 
     private void Start()
     {
-        currentLevel = resolvePuzzles.level;
+        boxAreaFunctions = transform.parent.GetComponent<ResolvePuzzles>().boxAreaFunctions;
+        currentLevel = transform.parent.GetComponent<ResolvePuzzles>().currentLevel;
+        spawnedItem = false;
     }
+    private void Update()
+    {
+        if (spawAItem)
+        {
+            if (needAKeyToSpawn && Input.GetKeyDown(keyToSpawn) && inDoorArea && !spawnedItem)
+            {
+                boxAreaFunctions.SpawnItemInLevel(spawnPos.position, currentLevel, itemObj, (int)areaOrder);
+                spawnedItem = true;
+            }
+            else if (!needAKeyToSpawn && inDoorArea && !spawnedItem)
+            {
+                boxAreaFunctions.SpawnItemInLevel(spawnPos.position, currentLevel, itemObj, (int)areaOrder);
+                spawnedItem = true;
+            }
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            //funciona para abrir portas
-            resolvePuzzles.ReceiveBoxID(WaitTime, (int)areaOrder);
-
-            //SE POSSUIR SEQUENCIA NOS AUDIOS
-            if (haveSequentialAudios && !audioCooldownCtrl)
-            {
-                StartCoroutine(ResetCooldown(cooldownBtwSeqAudio));
-            }
-            if (haveAkey)
-            {
-                 PassBoxArea(true, haveSequentialAudios);
-            }
-            else
-            {
-                PassBoxArea(false, haveSequentialAudios);
-            }
+            inDoorArea = true;
+            boxAreaFunctions.ReceiveBoxAreaID((int)areaOrder);
+            PassarOIndexDaArea();
         }
     }
-    IEnumerator WaitALittle(bool temChave)
+    private void OnTriggerExit2D(Collider2D collision)
     {
-        yield return new WaitForSeconds(WaitTime);
-        resolvePuzzles.ReceiveBoxAreaID((int)areaOrder, waitTimeToShowItem, temChave, resolvePuzzles.level);
+        inDoorArea = false;
+
     }
-    public void PassBoxArea(bool temChave, bool temAudioSequencia)
+    public void PassarOIndexDaArea()
     {
-        bool spawnedKey = resolvePuzzles.ReceiveBoxAreaID((int)areaOrder, waitTimeToShowItem, temChave, resolvePuzzles.level);
-        if (spawnedKey)
-            haveAkey = false;
+        currentLevel.SetStepComplete((int)areaOrder);
     }
-    //DOORS SEQUENTIAL AUDIO
-    private IEnumerator ResetCooldown(float cooldown)
-    {
-        audioCooldownCtrl = true;
-        currentLevel.NarratorPlaySequentialAudios();
-        yield return new WaitForSeconds(cooldown);
-        audioCooldownCtrl = false;
-    }
+
 }

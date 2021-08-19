@@ -7,16 +7,16 @@ public class Levels : ScriptableObject
 {
     [Header("STEPS")]
     public int stepCount;
+    public int currentStep;
     public bool[] steps;
 
     [Header("COMPLETE")]
     public bool stepComplete;
     
-    [Header("AUDIOS")]
-    public SequencialClips clips;
     
     public void StartLevel()
     {
+        currentStep = 0;
         stepComplete = false;
         steps = new bool[stepCount];
         for(int a = 0; a < stepCount; a++)
@@ -29,11 +29,13 @@ public class Levels : ScriptableObject
         if (id == 0)
         {
             steps[0] = true;
+            currentStep = 0;
         }
         else
         {
             if (steps[id - 1])
                 steps[id] = true;
+            currentStep = id;
         }
         stepComplete = CompleteLevel();
     }
@@ -57,14 +59,19 @@ public class Levels : ScriptableObject
             return steps[0];
         return false;
     }
-    public void SpawnItem(int id, GameObject item, Vector2 position)
+    public void SpawnItem(GameObject item, Vector2 position, int id)
     {
-        Instantiate(item, position, Quaternion.identity);
+        if(GetLastStepsState(id))
+            Instantiate(item, position, Quaternion.identity);
+        //CompleteStep(id);
+    }
+    public int GetCurrentStep()
+    {
+        return currentStep;
+    }
+    public void SetStepComplete(int id)
+    {
         CompleteStep(id);
     }
-    public void NarratorPlaySequentialAudios()
-    {
-        clips.PlayInOrder(Narrator.Instance.voicePlayer);
-        Debug.Log("NARRADOR INICIADO");
-    }
+
 }

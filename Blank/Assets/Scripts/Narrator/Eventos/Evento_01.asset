@@ -12,19 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bfa05480dc79a14d9da8509bcecfd92, type: 3}
   m_Name: Evento_01
   m_EditorClassIdentifier: 
-  intro: 0
-  sequential: 0
-  introFinished: 0
-  timeBtwClips:
-  - 3
-  - 2
-  - 1.2
-  - 13
-  - 3
-  - 5
-  - 4
-  currentClipIndex: 3
-  timeLockDoorAudio: 0
+  narratorObjects: {fileID: 11400000, guid: 99791cf1f9903464d8c3176bd787fcd0, type: 2}
+  currentClipIndex: 6
+  introFinished: 1
   clipsInOrder:
   - {fileID: 8300000, guid: 67b6420bf6676fa4baf289eb20f1f35d, type: 3}
   - {fileID: 8300000, guid: 0eedfeb77769a2e4dbf0954dedb2f3fc, type: 3}
@@ -33,4 +23,11 @@ MonoBehaviour:
   - {fileID: 8300000, guid: f6543ab20a0ef774faedefce64d94e38, type: 3}
   - {fileID: 8300000, guid: c5d1bb7bf9bb65144aedf3a818f5a76c, type: 3}
   - {fileID: 8300000, guid: 9d913796257dcee47a17ec871e3e28e7, type: 3}
-  TheDoorIsLockedAudio: {fileID: 8300000, guid: 2ebc8beee4e11f9428a62acba8dddc57, type: 3}
+  timeBtwClips:
+  - 3
+  - 2
+  - 1.2
+  - 13
+  - 3
+  - 5
+  - 4
