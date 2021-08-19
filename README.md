@@ -19,7 +19,7 @@ Todos os membros responsáveis pelo desenvolvimento do Jogo.
 - Isaac Matos
 
 # Instalar ou executar a aplicação
-[MuriloChayel/ProjetoBlank/tree/main/bin](http://github.com/MuriloChayel/Blank/bin)
+[github.com/MuriloChayel/ProjetoBlank/tree/main/bin]
 Extrair arquivo blank.rar
 Executar blank.exe
 
