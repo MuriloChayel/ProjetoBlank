@@ -19,7 +19,9 @@ Todos os membros responsáveis pelo desenvolvimento do Jogo.
 - Isaac Matos
 
 # Instalar ou executar a aplicação
-[blank.exe](http://github.com/MuriloChayel/Blank/bin/fulano.exe)
+[MuriloChayel/ProjetoBlank/tree/main/bin](http://github.com/MuriloChayel/Blank/bin)
+Extrair arquivo blank.rar
+Executar blank.exe
 
 ## Instalar a Unity
 Unity Hub 2.4.2 https://unity3d.com/pt/get-unity/download
