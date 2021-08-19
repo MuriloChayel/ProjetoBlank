@@ -8337,7 +8337,7 @@ MonoBehaviour:
   player: {fileID: 683305497}
   t: 2
   idleTime: 15
-  skipIntro: 1
+  skipIntro: 0
   finishEvent01: 1
 --- !u!4 &1081235890
 Transform:
@@ -15005,7 +15005,7 @@ MonoBehaviour:
   spawAItem: 1
   needAKeyToSpawn: 0
   inDoorArea: 0
-  keyToSpawn: 32
+  keyToSpawn: 106
   spawnedItem: 0
 --- !u!61 &2134733122
 BoxCollider2D:

@@ -43,16 +43,19 @@ public class boxArea : MonoBehaviour
     }
     private void Update()
     {
-        if (spawAItem)
+        if (spawAItem && currentLevel.GetLastStepsState((int)areaOrder))
         {
             if (needAKeyToSpawn && Input.GetKeyDown(keyToSpawn) && inDoorArea && !spawnedItem)
             {
-                boxAreaFunctions.SpawnItemInLevel(spawnPos.position, currentLevel, itemObj, (int)areaOrder);
+                    currentLevel.SpawnItem(itemObj, spawnPos.position, (int)areaOrder);
+               // boxAreaFunctions.SpawnItemInLevel(spawnPos.position, currentLevel, itemObj, (int)areaOrder);
                 spawnedItem = true;
             }
-            else if (!needAKeyToSpawn && inDoorArea && !spawnedItem)
+            if (!needAKeyToSpawn && inDoorArea && !spawnedItem)
             {
-                boxAreaFunctions.SpawnItemInLevel(spawnPos.position, currentLevel, itemObj, (int)areaOrder);
+                currentLevel.SpawnItem(itemObj, spawnPos.position, (int)areaOrder);
+
+                //boxAreaFunctions.SpawnItemInLevel(spawnPos.position, currentLevel, itemObj, (int)areaOrder);
                 spawnedItem = true;
             }
         }

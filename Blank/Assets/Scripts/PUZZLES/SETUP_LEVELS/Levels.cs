@@ -61,8 +61,7 @@ public class Levels : ScriptableObject
     }
     public void SpawnItem(GameObject item, Vector2 position, int id)
     {
-        if(GetLastStepsState(id))
-            Instantiate(item, position, Quaternion.identity);
+        Instantiate(item, position, Quaternion.identity);
         //CompleteStep(id);
     }
     public int GetCurrentStep()
