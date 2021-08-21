@@ -34,7 +34,7 @@ public class Levels : ScriptableObject
         else
         {
             if (steps[id - 1])
-                steps[id] = true;
+                steps[id] = true;   
             currentStep = id;
         }
         stepComplete = CompleteLevel();

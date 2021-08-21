@@ -14,7 +14,7 @@ public class FuncBoxArea : ScriptableObject
 
     //COUNTS THE AMOUNT OF BOX AREAS
     int count;
- 
+
     public void ReceiveBoxID(float waitTime, int id)
     {
 
@@ -28,5 +28,6 @@ public class FuncBoxArea : ScriptableObject
     {
         currentLevel.SpawnItem(itemObj, position, id);
     }
+
    
 }

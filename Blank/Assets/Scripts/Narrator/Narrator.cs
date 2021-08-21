@@ -8,7 +8,8 @@ public class Narrator : MonoBehaviour
 
     public RandomClipsNarrador randomClipsNarrador;
     public NarratorObjectsEvents objectsEvents;
-    public SequencialClips Intro;
+    public SequencialClips clip; //intro clip
+    public SequencialClips[] EvenList;
     public AudioSource voicePlayer;
 
     public PlayerBehaviour player;
@@ -17,7 +18,7 @@ public class Narrator : MonoBehaviour
     public float idleTime;
     public bool skipIntro;
     public bool finishEvent01;
-
+    public int idClip;
     private void Awake()
     {
         voicePlayer = GetComponent<AudioSource>();
@@ -25,14 +26,31 @@ public class Narrator : MonoBehaviour
     }
     private void Start()
     {
-        Intro.Setup(voicePlayer);
-        if(!skipIntro)
-            Intro.PlayIntro();
-        
+        clip.Setup(voicePlayer);
+        if (!skipIntro)
+            StartEvent();
+    }
+    public void StartEvent()
+    {
+        clip.Setup(voicePlayer);
+        voicePlayer.Stop();
+        clip.Play();
+    }
+    public void NextEvent(float wait)
+    {
+        StartCoroutine(WaitForNext(wait));
+    }
+    
+    IEnumerator WaitForNext(float wait)
+    {
+        yield return new WaitForSeconds(wait);
+        idClip++;
+        clip = EvenList[idClip];
+        StartEvent();
     }
     private void Update()
     {
-        if (Intro.introFinished && player.tooMchIdle && !ctrl)
+        if (clip.introFinished && player.tooMchIdle && !ctrl)
         {
             StartCoroutine(Wait());
         }

@@ -32,8 +32,11 @@ public class UI_inventory : MonoBehaviour
                     WalkInList(a);
                 }
                 break;
-            case ItemClass.ItemType.envelope:
-
+            case ItemClass.ItemType.pedecabra:
+                for (int a = 0; a < icons.Count; a++)
+                {
+                    WalkInList(a);
+                }
                 break;
             default:
                 return;

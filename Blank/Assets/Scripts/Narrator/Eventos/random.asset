@@ -15,6 +15,7 @@ MonoBehaviour:
   idles:
   - {fileID: 8300000, guid: 68871b014e36deb4bb090221061b9dfe, type: 3}
   - {fileID: 8300000, guid: 909f27e2b1125ec42a57a79410bd56fc, type: 3}
+  - {fileID: 8300000, guid: 22da3843be25eef4f84465bc29ca783e, type: 3}
   - {fileID: 8300000, guid: 2a8b2323aa86f6d4eaceb8dfeb0c49fd, type: 3}
   loops: []
   instrucoes: []

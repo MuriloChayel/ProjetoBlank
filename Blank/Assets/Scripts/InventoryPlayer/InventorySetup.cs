@@ -24,6 +24,8 @@ public class InventorySetup : MonoBehaviour
     public void AddItem(Item item)
     {
         SetItemProperties(item);
+        if (item.GetComponent<Item>().triggerEvent)
+            Narrator.Instance.NextEvent(0);
         //print("tipo do item adquirido" + item.type);
         uI_Inventory.AddItemToCanvas(item);//newItem.sprite);
     }

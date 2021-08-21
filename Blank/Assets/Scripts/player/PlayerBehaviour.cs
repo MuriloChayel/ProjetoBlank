@@ -4,6 +4,8 @@ using System.Collections;
 
 public class PlayerBehaviour : MonoBehaviour
 {
+
+    public static PlayerBehaviour Instance { get; private set; }
     [Header("Player Properties")]
     public Rigidbody2D rb;
     private Animator an;
@@ -36,6 +38,7 @@ public class PlayerBehaviour : MonoBehaviour
     public AudioSource audioSource;
     public bool canInteract = false;
 
+
     /*
         0 - concreto
         1 - madeira
@@ -49,9 +52,14 @@ public class PlayerBehaviour : MonoBehaviour
     bool controller = false;
     public bool callBumpFunt = false;
 
-    private void Start()
+    private void Awake()
     {
         an = GetComponent<Animator>();
+
+        Instance = this;
+    }
+    private void Start()
+    {
     }
     private void Update()
     {

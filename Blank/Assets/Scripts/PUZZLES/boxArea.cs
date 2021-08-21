@@ -34,7 +34,18 @@ public class boxArea : MonoBehaviour
     public bool inDoorArea;
     public KeyCode keyToSpawn;
     public bool spawnedItem;
+    public bool triggerAudio;
+    public float waitToTriggerEvent;
+    public bool nextEvent;
+    public bool waitNarrator;
+    public float waitT;
+    public AudioClip clip;
+    private AudioSource source;
 
+    private void Awake()
+    {
+        source = GetComponentInChildren<AudioSource>();
+    }
     private void Start()
     {
         boxAreaFunctions = transform.parent.GetComponent<ResolvePuzzles>().boxAreaFunctions;
@@ -59,8 +70,26 @@ public class boxArea : MonoBehaviour
                 spawnedItem = true;
             }
         }
+        if (triggerAudio)
+        {
+            if (!source.isPlaying)
+            {
+                source.clip = clip;
+                source.Play();
+            }
+        }
     }
-
+    //WAIT TIME PLAYER STAND
+    public void PlayerWait(float waitTime)
+    {
+        PlayerBehaviour.Instance.canMove = false;
+        StartCoroutine(WaitPlayer(waitTime));
+    }
+    public IEnumerator WaitPlayer(float wait)
+    {
+        yield return new WaitForSeconds(wait);
+        PlayerBehaviour.Instance.canMove = true;
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -68,6 +97,17 @@ public class boxArea : MonoBehaviour
             inDoorArea = true;
             boxAreaFunctions.ReceiveBoxAreaID((int)areaOrder);
             PassarOIndexDaArea();
+            //PROXIMO EVENTO
+            if (nextEvent)
+            {
+                Narrator.Instance.NextEvent(waitToTriggerEvent);
+                nextEvent = false;
+            }
+            if (waitNarrator)
+            {
+                WaitPlayer(waitT);
+                waitNarrator = false;
+            }
         }
     }
     private void OnTriggerExit2D(Collider2D collision)

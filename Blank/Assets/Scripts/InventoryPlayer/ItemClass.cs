@@ -10,6 +10,7 @@ public class ItemClass : ScriptableObject
     {
         chave,
         envelope,
+        pedecabra,
     };
     public ItemType type;
 }

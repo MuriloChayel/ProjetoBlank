@@ -8,12 +8,12 @@ public class Item : MonoBehaviour
     public Sprite sprite;
 
     public bool playAudio, waitTimetoPlay;
+    public bool triggerEvent;
     bool ctrl;
 
     public float timeToStartSoundFx, loopTime;
     public AudioClip clip;
     public AudioSource source;
-
 
     private void Awake()
     {

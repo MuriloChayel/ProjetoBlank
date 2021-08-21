@@ -20,4 +20,4 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 31fb174442a78a840837fb0d1143ff22, type: 3}
   - {fileID: 8300000, guid: 2ee6164df33620643b6419266ec4d1f3, type: 3}
   - {fileID: 8300000, guid: a1821855e3276474aa27de669440bd4a, type: 3}
-  currentClipIndex: 3
+  currentClipIndex: 0

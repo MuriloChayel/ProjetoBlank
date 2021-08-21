@@ -17,6 +17,8 @@ MonoBehaviour:
   introFinished: 1
   clipsInOrder:
   - {fileID: 8300000, guid: 67b6420bf6676fa4baf289eb20f1f35d, type: 3}
+  - {fileID: 8300000, guid: c3cb571d780897d4296ff9575916a77c, type: 3}
+  - {fileID: 8300000, guid: 6584562382f0bc04d8d3300820aa318a, type: 3}
   - {fileID: 8300000, guid: 0eedfeb77769a2e4dbf0954dedb2f3fc, type: 3}
   - {fileID: 8300000, guid: 7887ef60f68476f47b6d21a905721b16, type: 3}
   - {fileID: 8300000, guid: ccb5a9f0ebdf5f742a161148cc293096, type: 3}
@@ -24,8 +26,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: c5d1bb7bf9bb65144aedf3a818f5a76c, type: 3}
   - {fileID: 8300000, guid: 9d913796257dcee47a17ec871e3e28e7, type: 3}
   timeBtwClips:
+  - 1.5
   - 3
-  - 2
+  - 5.8
+  - 1.7
   - 1.2
   - 13
   - 3

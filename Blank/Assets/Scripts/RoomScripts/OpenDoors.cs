@@ -16,6 +16,7 @@ public class OpenDoors : MonoBehaviour
     public GameObject falseWalls;
     public BoxCollider2D doorCollider;
     
+
     [Header("CHECKs")]
     public bool levelComplete;
     public bool haveAKey = false;
@@ -25,7 +26,11 @@ public class OpenDoors : MonoBehaviour
     public bool frontDoor;
     public GameObject openDoor, closeDoor;
     public BoxCollider2D frontDoorCollider;
+    public ItemClass.ItemType typeKey;
+
     [Header("AUDIO")]
+    public bool triggerEvent;
+    public float waitToTriggerEvent;
     public AudioClip openSound;
     public AudioClip tryingToOpen;
     private AudioSource source;
@@ -63,7 +68,7 @@ public class OpenDoors : MonoBehaviour
         {
             foreach (var item in inventorySetup.itemList)
             {
-                if (item.type == ItemClass.ItemType.chave)
+                if (item.type == typeKey)
                     haveAKey = true;
             }
         }
@@ -71,6 +76,11 @@ public class OpenDoors : MonoBehaviour
     // OPEN DOOR
     private void OpenDoor()
     {
+        if (triggerEvent)
+        {
+            Narrator.Instance.NextEvent(waitToTriggerEvent);
+            triggerEvent = false;
+        }
         source.clip = openSound;
         source.Play();
 

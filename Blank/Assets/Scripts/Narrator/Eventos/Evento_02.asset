@@ -12,11 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bfa05480dc79a14d9da8509bcecfd92, type: 3}
   m_Name: Evento_02
   m_EditorClassIdentifier: 
-  intro: 0
-  sequential: 0
-  introFinished: 0
-  timeBtwClips: []
+  narratorObjects: {fileID: 0}
   currentClipIndex: 0
-  timeLockDoorAudio: 0
-  clipsInOrder: []
-  TheDoorIsLockedAudio: {fileID: 0}
+  introFinished: 0
+  clipsInOrder:
+  - {fileID: 0}
+  - {fileID: 0}
+  timeBtwClips: []

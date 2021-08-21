@@ -22,7 +22,7 @@ public class SequencialClips : ScriptableObject
     }
     //RODANDO SONS ALEATORIOS
 
-    public void PlayIntro()
+    public void Play()
     {
         source.gameObject.GetComponent<MonoBehaviour>().StartCoroutine(Wait());
     }
