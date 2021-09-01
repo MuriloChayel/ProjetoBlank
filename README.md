@@ -19,8 +19,7 @@ Todos os membros responsáveis pelo desenvolvimento do Jogo.
 - Isaac Matos
 
 # Instalar ou executar a aplicação
-[MuriloChayel/ProjetoBlank/tree/main/bin]
-Extrair arquivo blank.rar
+download: https://drive.google.com/drive/folders/1ndmsRpU08MCeD66aH9uLvzvTi2cEr6Tg?usp=sharing
 Executar blank.exe
 
 ## Instalar a Unity
